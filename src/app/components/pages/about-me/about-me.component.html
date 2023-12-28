@@ -1,1 +1,51 @@
-<p>about-me works!</p>
+<div class="about-section">
+
+
+    <div id="description" class="flex flex-wrap justify-center items-center">
+        <div class="pb-8 w-3/4 grid grid-cols-3 gap-4">
+            <div class="col-span-2 flex flex-col justify-center">
+                <h1 class="text-center text-2xl font-semibold w-1/3  rounded-lg mx-auto my-auto flex items-center justify-center h-10">
+                    A propos de <span class="text-tertiary m-2">moi</span>
+                </h1>
+                <p class="underline decoration-secondary decoration-double">Maxime D'haeyere</p>
+                <p class="text-lg leading-relaxed text-gray-600">
+                    Développeur en réalité virtuelle chez <span class="font-medium underline decoration-secondary decoration-double">Stellantis</span> | Étudiant en <span class="font-medium underline decoration-secondary decoration-double">BUT informatique</span> à l'IUT de Montreuil, parcours réalisation d'applications
+                </p>
+            </div>
+            <div class="flex justify-end">
+                <img [src]="programmingImage" alt="programming" class="h-auto max-w-xs"/>
+            </div>
+        </div>
+    </div>
+    
+   
+
+    <div id="techs-section" class="flex flex-wrap justify-center">
+        <div class="pb-8 w-3/4">
+            <h1 class="text-white text-center text-2xl font-semibold w-1/3 bg-primary rounded-lg mx-auto my-auto flex items-center justify-center h-10">
+                Mes <span class="text-secondary m-2">compétences</span> professionnelles
+            </h1>
+            <div class="flex flex-wrap justify-center">
+                <div *ngFor="let icon of skillIcons; let i = index" [class]="skillIconList[i] + ' icons'">
+                    <i [class]="icon"></i>
+                </div>
+            </div>
+          </div>
+          
+    </div>
+    
+   
+    <div id="tools-section" class="flex flex-wrap justify-center ">
+        
+        <div class="pb-8 w-3/4 ">
+            <h1 class="text-white text-center text-2xl font-semibold w-1/3 bg-primary rounded-lg mx-auto my-auto flex items-center justify-center h-10">
+                Les <span class="text-secondary m-2">outils</span> que j'utilise
+            </h1>
+            <div class="flex flex-wrap justify-center">
+                <div *ngFor="let icon of toolsIcons; let i = index" [class]="toolIconList[i] + ' icons'">
+                    <i [class]="icon"></i>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
