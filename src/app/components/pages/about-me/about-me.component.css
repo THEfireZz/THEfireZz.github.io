@@ -1,37 +1,37 @@
 .icons {
-        font-size: 4.5em !important;
-        width: 3.5em !important;
-        margin: 15px !important;
-        padding: 10px !important;
-        opacity: 0.93 !important;
-        vertical-align: middle !important;
-        text-align: center !important;
-        border-radius: 5px !important;
-        display: table !important;
-    }
+  font-size: 4.5em !important;
+  width: 3.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+}
 
-    .icons-secondary {
-      background-color: #F4D644 !important;
-      box-shadow: 4px 5px 4px 3px rgba(244, 214, 68, 0.3) !important;
-    }
+.icons-secondary {
+  background-color: #F4D644 !important;
+  box-shadow: 4px 5px 4px 3px rgba(244, 214, 68, 0.3) !important;
+}
 
-    .icons-secondary:hover {
-      transform: scale(1.1);
-      box-shadow: 4px 5px 4px 3px rgba(195, 171, 54, 0.6) !important;
-    }
+.icons-secondary:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 5px 4px 3px rgba(195, 171, 54, 0.6) !important;
+}
 
-    .icons-tertiary {
-      background-color: #7D8CA3 !important;
-      box-shadow: 4px 5px 4px 3px rgba(125, 140, 163, 0.3) !important;
-    }
+.icons-tertiary {
+  background-color: #7D8CA3 !important;
+  box-shadow: 4px 5px 4px 3px rgba(125, 140, 163, 0.3) !important;
+}
 
-    .icons-tertiary:hover {
-      transform: scale(1.1);
-      box-shadow: 4px 5px 4px 3px rgba(125, 140, 163, 0.6) !important;
-    }
+.icons-tertiary:hover {
+  transform: scale(1.1);
+  box-shadow: 4px 5px 4px 3px rgba(125, 140, 163, 0.6) !important;
+}
 
-  .about-section {
-    position: relative !important;
-    padding-top: 150px !important;
-    padding-bottom: 30px !important;
-  }
+.about-section {
+position: relative !important;
+padding-top: 150px !important;
+padding-bottom: 30px !important;
+}

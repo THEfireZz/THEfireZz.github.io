@@ -9,7 +9,7 @@ module.exports = {
       'primary': '#2A2E36',
       'secondary': '#F4D644',
       'tertiary': '#7D8CA3',
-      'background': '#F2F2F0 ',
+      'background': '#edf9fe ',
     },
     extend: {},
   },
