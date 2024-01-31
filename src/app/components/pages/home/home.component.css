@@ -1,10 +1,4 @@
 .home-section {
-    padding-top: 150px;
+    padding-top: 130px;
     padding-bottom: 30px;
-}
-
-@media (min-width: 768px) {
-    .home-content {
-        justify-content: space-between;
-    }
 }
