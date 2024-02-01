@@ -1,6 +1,6 @@
 .icons {
   font-size: 4.5em !important;
-  width: 3.5em !important;
+  width: 2em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -30,7 +30,7 @@
   box-shadow: 4px 5px 4px 3px rgba(125, 140, 163, 0.6) !important;
 }
 
-.about-section {
+.skills-section {
 position: relative !important;
 padding-top: 150px !important;
 padding-bottom: 30px !important;

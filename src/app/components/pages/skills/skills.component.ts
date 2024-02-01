@@ -16,96 +16,38 @@ export class SkillsComponent {
   toolIconList: string[] = [];
 
   skillIcons: string[] = [
-    "devicon-cplusplus-plain",
-    "devicon-java-plain",
-    "devicon-python-plain",
-    "devicon-javascript-plain",
-    "devicon-php-plain",
-    "devicon-html5-plain",
-    "devicon-css3-plain",
-    "devicon-angularjs-plain",
-    "devicon-docker-plain",
-    "devicon-qt-original",
-    "devicon-tailwindcss-plain",
-    "devicon-bootstrap-plain",
-    "devicon-postgresql-plain",
-    "devicon-git-plain"
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg ",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg  ",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+          
   ]
 
   toolsIcons: string[] = [
-    "devicon-visualstudio-plain",
-    "devicon-windows8-original",
-    "devicon-linux-plain",
-    "devicon-jetbrains-plain",
-    "devicon-github-original",
-    "devicon-unrealengine-original",
-    "devicon-blender-original"
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
   ]
 
   ngOnInit(): void {
-    this.setSkillIconColors();
-    this.setToolIconColors();
+    //this.setSkillIconColors();
+    //this.setToolIconColors();
   }
 
-
-  setToolIconColors(): void {
-    const totalIcons = this.toolsIcons.length;
-    const yellowPercentage = 0.8; // 80% jaune
-    const variation = 0.1; // Variation possible autour du pourcentage souhaité
-
-    let yellowCount = Math.round(totalIcons * yellowPercentage);
-    yellowCount += Math.floor(Math.random() * (totalIcons * variation * 2) - totalIcons * variation);
-
-    if (yellowCount < 0) {
-      yellowCount = 0;
-    } else if (yellowCount > totalIcons) {
-      yellowCount = totalIcons;
-    }
-
-    for (let i = 0; i < totalIcons; i++) {
-      if (i < yellowCount) {
-        this.toolIconList.push('icons-secondary'); // Jaune
-      } else {
-        this.toolIconList.push('icons-tertiary');
-      }
-    }
-
-    this.shuffleArray(this.toolIconList); // Mélange aléatoire des couleurs
-  }
-
-
-  setSkillIconColors(): void {
-    const totalIcons = this.skillIcons.length;
-    const yellowPercentage = 0.8; // 80% jaune
-    const variation = 0.1; // Variation possible autour du pourcentage souhaité
-
-    let yellowCount = Math.round(totalIcons * yellowPercentage);
-    yellowCount += Math.floor(Math.random() * (totalIcons * variation * 2) - totalIcons * variation);
-
-    if (yellowCount < 0) {
-      yellowCount = 0;
-    } else if (yellowCount > totalIcons) {
-      yellowCount = totalIcons;
-    }
-
-    for (let i = 0; i < totalIcons; i++) {
-      if (i < yellowCount) {
-        this.skillIconList.push('icons-secondary'); // Jaune
-      } else {
-        this.skillIconList.push('icons-tertiary');
-      }
-    }
-
-    this.shuffleArray(this.skillIconList); // Mélange aléatoire des couleurs
-  }
-
-
-
-
-  shuffleArray(array: any[]): void {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-  }
 }
