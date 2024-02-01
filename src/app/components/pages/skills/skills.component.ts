@@ -12,9 +12,6 @@ export class SkillsComponent {
 
   programmingImage = "assets/images/programmingYellow.svg";
 
-  skillIconList: string[] = [];
-  toolIconList: string[] = [];
-
   skillIcons: string[] = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
@@ -44,10 +41,5 @@ export class SkillsComponent {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
   ]
-
-  ngOnInit(): void {
-    //this.setSkillIconColors();
-    //this.setToolIconColors();
-  }
 
 }
