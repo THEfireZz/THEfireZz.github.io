@@ -31,24 +31,6 @@ export class SkillsComponent {
     { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   ]
 
-  skillIcons: string[] = [
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg ",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg  ",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-          
-  ]
-
   tools: { name: string, icon: string }[] = [
     { name: "JetBrains", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" },
     { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" },
@@ -59,18 +41,6 @@ export class SkillsComponent {
     { name: "Unreal Engine", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" },
     { name: "Blender", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" },
     { name: "Trello", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" }
-  ]
-
-  toolsIcons: string[] = [
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
   ]
 
 }
