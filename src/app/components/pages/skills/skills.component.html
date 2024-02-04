@@ -28,7 +28,7 @@
                 Mes <span class="text-secondary m-2">compétences</span> professionnelles
             </h1>
             <div class="flex flex-wrap justify-center">
-                <img *ngFor="let skill of skillIcons; let i = index" class="icons icons-secondary" src="{{skill}}" />
+                <img *ngFor="let skill of skills; let i = index" class="icons icons-secondary" src="{{skill.icon}}" title="{{skill.name}}" />
             </div>
         </div>
 
@@ -43,7 +43,7 @@
                 Les <span class="text-secondary m-2">outils</span> que j'utilise
             </h1>
             <div class="flex flex-wrap justify-center">
-                <img *ngFor="let tool of toolsIcons; let i = index" class="icons icons-secondary" src="{{tool}}" />
+                <img *ngFor="let tool of tools; let i = index" class="icons icons-secondary" src="{{tool.icon}}" title="{{tool.name}}" />
             </div>
         </div>
     </div>
