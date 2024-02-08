@@ -21,15 +21,74 @@
                             class="absolute h-full border-2 border-secondary left-1/2 transform -translate-x-1/2  rounded-1">
                         </div>
 
-                        <div class="mb-8 flex justify-between items-center w-full"
-                            *ngFor="let item of formations; let i = index"
-                            [ngClass]="{ 'flex-row-reverse': i % 2 !== 1}">
+                        <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                             <div class="order-1 w-5/12"></div>
                             <div class="order-1 w-5/12 px-1 py-4 text-right">
-                                <p class="mb-3 text-base text-yellow-300">{{ item.date }}</p>
-                                <h4 class="mb-3 font-bold text-lg md:text-2xl">{{ item.title }}</h4>
+                                <p class="mb-3 text-base text-yellow-300">Août 2024</p>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl text-primary">Fin de l'alternance</h4>
                                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                                    {{ item.description }}
+                                    Pick your favourite event(s) and register in that event by filling the form
+                                    corresponding to that
+                                    event. Its that easy :)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                            <div class="order-1 w-5/12"></div>
+                            <div class="order-1 w-5/12 px-1 py-4 text-left">
+                                <p class="mb-3 text-base text-yellow-300">Septembre 2023 - Juillet 2024</p>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl text-primary">3 ème année de BUT</h4>
+                                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                                    Parcours A, Réalisation d'applications : conception, développement, validation.<br/>
+                                    Développement d'une API REST et le front-end du site de l'emploi du temps de l'IUT
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mb-8 flex justify-between items-center w-full right-timeline">  
+
+                            <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                <p class="mb-3 text-base text-yellow-300">Septembre 2022</p>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl text-primary">Début de l'alternance</h4>
+                                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                                    Participate online. The links for your registered events will be sent to you via
+                                    email and WhatsApp groups. Use those links and show your talent.
+                                </p>
+                            </div>
+                        
+                            <div class="order-2 w-2/12"></div> <!-- Redistribuez l'espace, ajustez la largeur ici -->
+                        
+                            <div class="order-2 w-5/12 px-1 py-4">
+                                <p class="mb-3 text-base text-yellow-300">Septembre 2022 - Juillet 2023</p>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl text-primary">2 ème année de BUT</h4>
+                                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                                    Parcours A, Réalisation d'applications : conception, développement, validation. <br/>
+                                    Développement d'un site web de lecture et d'écriture de livres en collaboration
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                            <div class="order-1 w-5/12"></div>
+                            <div class="order-1 w-5/12 px-1 py-4 text-right">
+                                <p class="mb-3 text-base text-yellow-300">Septembre 2021 - Juillet 2022</p>
+                                <h4 class="mb-3 font-bold text-lg md:text-2xl text-primary">1 er année de BUT</h4>
+                                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                                    The ultimate genius will be revealed by our judging panel on 10th May, 2021 and the
+                                    resukts will be
+                                    announced on the whatsapp groups and will be mailed to you.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                            <div class="order-1 w-5/12"></div>
+
+                            <div class="order-1  w-5/12 px-1 py-4 text-left">
+                                <p class="mb-3 text-base text-yellow-300">Septembre 2019 - Juillet 2021</p>
+                                <h4 class="mb-3 font-bold  text-lg md:text-2xl text-primary">Baccalauréat</h4>
+                                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                                    Mention assez bien. <br/>
+                                    Spécialité Mathématiques & NSI.
                                 </p>
                             </div>
                         </div>
